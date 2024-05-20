@@ -11,6 +11,7 @@
             <button mat-raised-button (click)="openAddUserDialog()" class="demo-button">Add data</button>
             <button mat-raised-button (click)="removeData()" class="demo-button">Remove data</button>
         </div>
+        
         <table mat-table [dataSource]="tempTrainees" class="data-table">
             <ng-container matColumnDef="position">
                 <th mat-header-cell *matHeaderCellDef> ID </th>
